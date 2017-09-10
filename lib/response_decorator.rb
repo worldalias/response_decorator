@@ -5,4 +5,9 @@ require "response_decorator/response_helper"
 require "response_decorator/serializers_helper"
 
 module ResponseDecorator
+  module Methods
+    def decorate(opts = {})
+      Decorator.new(opts)
+    end
+  end
 end
