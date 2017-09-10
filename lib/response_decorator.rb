@@ -1,4 +1,5 @@
 require "response_decorator/version"
+require "response_decorator/base_serializer"
 require "response_decorator/decorator"
 require "response_decorator/paginate"
 
